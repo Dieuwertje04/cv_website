@@ -91,7 +91,7 @@ main{
     background-color: rgb(161, 168, 190);
 }
 #resume{
-    background-color: rgb(243, 208, 195);
+    background-color: hsl(16, 67%, 86%);
 }
 #contact{
     background-color: rgb(242, 155, 185);
@@ -115,7 +115,7 @@ main{
 }
 .text_content h3{
     font-family: DMSerif;
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: rgb(63, 0, 19);
 }
 .text_content p{
@@ -138,6 +138,186 @@ main{
 .about_content a:hover{
     background-color: hsl(342, 100%, 18%);
 }
+
+.about_me_box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 2px;
+    left: 0;
+    margin-bottom: -110px;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+
+.about_me_left{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    margin-left: 50px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(242, 155, 185);
+    border-radius: 15px;
+}
+
+.hobbies_box{
+    margin-left: 20px;
+    width: 70%;
+}
+#hobbies h4{
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
+#hobbies_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-top: 20px;
+}
+#hobbies_list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#img_yarn{
+    width: 100px;
+}
+#img_scissors{
+    margin-top: 12px;
+    width: 75px;
+}
+#img_book{
+    margin-top: 10px;
+    width: 90px;
+}
+#img_paintbrush{
+    margin-top: 10px;
+    width: 55px;
+}
+#img_lightbulb{
+    margin-top: 10px;
+    width: 85px;
+}
+
+.about_me_info{
+    text-align: center;  
+}
+.about_me_info h4{
+    font-size: 1.7rem;
+}
+.about_me_info p{
+    font-size: 1.1rem;
+}
+
+#resume p, ul{
+    font-family: Montserrat;
+}
+
+#resume h3, h4{
+    font-family: DMSerif;
+}
+
+.section h2{
+    font-family: DMSerif;
+    font-size: 3rem;
+}
+.section p{
+    font-family: Montserrat;
+}
+
+.big_part_resume{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 2px;
+    left: 0;
+    width: 95%;
+}
+.resume_right{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+}
+.skills{
+    margin-right: 80px;
+    margin-top: 100px;
+    width: 30%;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(16, 67%, 94%);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+#education h3{
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+#resume h5{
+    font-family: DMSerif;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+#ucr{
+   padding-left: 10%;
+}
+#erasmus{
+   padding-left: 10%;
+}
+
+.big_part_resume h3{
+    font-family: DMSerif;
+    font-size: 2rem;
+}
+.big_part_resume h4{
+    font-family: DMSerif;
+    font-size: 1.5rem;
+}
+.big_part_resume p, ul{
+    font-family: Montserrat;
+}
+
+details > summary {
+    cursor: pointer;
+    width:fit-content;
+    transition: background-color 0.3s;
+    padding: 2px;
+    margin: 5px;
+}
+details > summary:hover{
+    background-color: hsl(16, 67%, 98%);
+    border-radius: 15px;
+}
+details > p{
+    margin-left: 25px;
+}
+
+#resume a{
+    background-color: hsl(16, 67%, 94%);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+#resume a:hover{
+    background-color: hsl(16, 67%, 98%);
+}
+
 
 
 

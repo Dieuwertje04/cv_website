@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="">
+    <link rel="icon" type="image/png" href="images/web_icon_d.png">
     <title>Dieuwertje's CV</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f7a0fd0ba.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header_container">
@@ -36,29 +37,37 @@
                         Currently, I'm in my gap year before continuing my master in (hopefully) quantum engineering.
                         In the first half of my gap year, I lived in Bologna and am teaching myself web development. 
                     </p>
-                    <a href="https://www.linkedin.com/in/dieuwertje-de-beer-126377271?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQQ1F9TVkS9muSlr777H9Pw%3D%3D">LinkedIn</a>
-                    <a href="https://github.com/Dieuwertje04">GitHub</a>
+                    <a href="https://www.linkedin.com/in/dieuwertje-de-beer-126377271?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQQ1F9TVkS9muSlr777H9Pw%3D%3D"><i class="fa-brands fa-linkedin" style="color: #f7f7f7;"></i>  LinkedIn</a>
+                    <a href="https://github.com/Dieuwertje04"><i class="fa-brands fa-github" style="color: #f7f7f7;"></i>  GitHub</a>
                 </div>
-            </div>
-            <div class="personal_data">
-                <h4>Perosnal Data</h4>
-                <p>Full name: Dieuwertje Maria Elisabeth de Beer</p>
-                <p>Born on the 12th of September 2004</p>
-            </div>
-            <div class="languages_spoken">
-                <h4>Languages Spoken</h4>
-                <p>Ducth (Native)</p>
-                <p>English (Fluent)</p>
-            </div>
-            <div class="hobbies">
-                <h3>Hobbies</h3>
-                <ul id="hobbies_list">
-                    <li>Knitting & crocheting</li>
-                    <li>Sewing</li>
-                    <li>Reading</li>
-                    <li>Painting</li>
-                    <li>Learning new skills</li>
-                </ul>
+            </div> 
+
+            <div class="about_me_box">
+                <div class="about_me_left">
+                    <div id="personal_data" class="about_me_info">
+                        <h4>Personal Data</h4>
+                        <p>Dieuwertje Maria Elisabeth de Beer</p>
+                        <p>12 September 2004</p>
+                    </div>
+
+                    <div id="languages_spoken" class="about_me_info">
+                        <h4>Languages Spoken</h4>
+                        <p>Ducth (Native)</p>
+                        <p>English (Fluent)</p>
+                    </div>
+                </div>
+                <div class="hobbies_box">
+                    <div id="hobbies" class="about_me_info right_side">
+                        <h4>Hobbies & Interests</h4>
+                        <ul id="hobbies_list">
+                            <li>Knitting & crocheting <img src="images/knitting_icon.png" alt="ball of yarn" id="img_yarn"></li>
+                            <li>Sewing <img src="images/scissors_icon.png" alt="scissors" id="img_scissors"></li>
+                            <li>Reading <img src="images/book_icon.png" alt="book" id="img_book"></li>
+                            <li>Painting <img src="images/paintbrush_icon.png" alt="paintbrush" id="img_paintbrush"></li>
+                            <li>Learning new skills <img src="images/lightbulb_icon.png" alt="lightbulb" id="img_lightbulb"></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -66,68 +75,90 @@
         <section id="resume" class="section">
             <h2>Resume</h2>
             <div class="big_part_resume">
-                <div class="education">
-                    <h3>Education</h3>
-                    <div id="ucr">
-                        <h4>University College Roosevelt</h4>
-                        <p>2022-2025</p>
-                        <p>Bachelor of Science (honors, gpa = 3.3), with a minor in Electrical Engineering</p>
-                        <p>Relevant subjects:</p>
-                        <ul class="subject_ucr">
-                            <li>Data Science:</li>
-                            <ul id="data_science_subjects">
-                                <li>Introduction to Data Science</li>
-                                <li>Machine Learning</li>
-                                <li>Robotics</li>
-                            </ul>
-                            <li>Computer Science:</li>
-                            <ul id="computer_science_subjects">
-                                <li>Introduction to Programming</li>
-                                <li>Atrificial Intelligence</li>
-                                <li>Topics in Computer Science (Algorithms)</li>
-                            </ul>
-                            <li>Physics:</li>
-                            <ul id="physics_subjects">
-                                <li>Introduction to Physics</li>
-                                <li>Quantum Mechanics</li>
-                                <li>Advanced Physics</li>
-                                <li>Electromagnetism</li>
-                                <li>Particle Physics</li>
-                            </ul>
-                        </ul>
+                <div class="skills">
+                    <h3>Programming Languages:</h3>
+                    <ul id="progamming_languages">
+                        <li>Python (packages)</li>
+                        <li>Micropython</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>R (Tidyverse, Shiny)</li>
+                        <li>Arduino / C++</li>
+                        <li>Mathematica</li>
+                    </ul>
+                    <div id="certificates">
+                        <h3>Certificates:</h3>
+                        <h5>IELTS (International English Lanuage Test)</h5>
+                        <p>Achieved in 2022</p>
                     </div>
-                    <div id="erasmus">
-                        <h4>Erasmus College Zoetermeer</h4>
-                        <p>2016-2022</p>
-                        <p>VWO certificate in Physics & Engineering / Biology & Health</p>
-                    </div>
+                    <h3>Skills</h3>
+                    <ul id="skills_list">
+                        <li>LaTeX</li>
+                        <li>Canva</li>
+                    </ul>
                 </div>
+                <div class="resume_right">
+                    <div id="education">
+                        <h3>Education</h3>
+                        <div id="ucr">
+                            <h4>University College Roosevelt</h4>
+                            <h5>2022-2025</h5>
+                            <p>Bachelor of Science (honors, gpa = 3.3), with a minor in Electrical Engineering</p>
+                            <p>Relevant subjects:</p>
+                            <ul class="subject_ucr">
+                                <details open>
+                                <summary>Data Science</summary>
+                                <p>
+                                    Introduction to Data Science <br>
+                                    Machine Learning <br>
+                                    Robotics <br>
+                                </p>                                
+                                </details>
 
-                <div class="certificates">
-                    <h3>Certificates:</h3>
-                    <h4>IELTS (International English Lanuage Test)</h4>
-                    <p>Achieved in 2022</p>
+                                <details>
+                                    <summary>Computer Science</summary>
+                                    <p>
+                                        Introduction to Programming <br>
+                                        Artificial Intelligence <br>
+                                        Topics in Computer Science <br>
+                                    </p>
+                                </details>
+                                
+                                <details>
+                                    <summary>Physics</summary>
+                                    <p>
+                                        Introduction to Physics <br>
+                                        Quantum Mechanics <br>
+                                        Advanced Mechanics <br>
+                                        Particle Physics <br>
+                                    </p>
+                                </details>
+
+                                <details>
+                                    <summary>Electronics</summary>
+                                    <p>
+                                        Basic Electronics and Circuits <br>
+                                        Control Theory <br>
+                                        Signals and Systems <br>
+                                    </p>
+                                </details>
+                            </ul>
+                        </div>
+                        <div id="erasmus">
+                            <h4>Erasmus College Zoetermeer</h4>
+                            <h5>2016-2022</h5>
+                            <p>VWO diploma in Physics & Engineering / Biology & Health</p>
+                        </div>
+                    </div>
+                    
+
+                    
                 </div>
+                
             </div>
-            <div class="skills">
-                <h3>Programming Languages:</h3>
-                <ul id="progamming_languages">
-                    <li>Python (packages)</li>
-                    <li>Micropython</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Java</li>
-                    <li>R (Tidyverse, Shiny)</li>
-                    <li>Arduino / C++</li>
-                    <li>Mathematica</li>
-                </ul>
-                <h3>Skills</h3>
-                <ul id="skills_list">
-                    <li>LaTeX</li>
-                    <li>Canva</li>
-                </ul>
-            </div>
+            
             <div class="work_experience">
                 <h3>Work Experiences:</h3>
                 <h4>Student Ambassador at UCR</h4>
@@ -195,17 +226,20 @@
                 </p>
                 <h4>Datafest - First Place</h4>
                 <p>
-                    As part of a team of six, I participated in Zeeland Datafest, a 14-hour hackathon focused on solving societal challenges through data analysis. With transportation as the main theme, we analyzed several 
+                    As part of a team of five, I participated in Zeeland Datafest, a 14-hour hackathon focused on solving societal challenges through data analysis. With transportation as the main theme, we analyzed several 
                     provided datasets and developed a solution that earned us first place.
                 </p>
             </div>
+
+            <a href="">Download Resume</a>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="section">
             <h2>Get in Touch!</h2>
-            <p>Email me at: <a href="mailto:dieuwertje.debeer@ziggo.nl">dieuwertje.debeer@ziggo.nl</a></p>
-            <p>Phone number: +31 645028673</p>
+            <p>Email me at: 
+                <script>document.write('<a href="mailto:'+'d'+'i'+'e'+'u'+'w'+'e'+'r'+'t'+'j'+'e'+'.'+'d'+'e'+'b'+'e'+'e'+'r'+'@'+'z'+'i'+'g'+'g'+'o'+'.'+'n'+'l'+'">dieuwertje.debeer@ziggo<!--.example-->.nl</a>');</script>
+                </p>
         </section>
 
    

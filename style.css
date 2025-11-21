@@ -289,7 +289,7 @@ main{
 
 details > summary {
     cursor: pointer;
-    width:fit-content;
+    width: fit-content;
     transition: background-color 0.3s;
     padding: 2px;
     margin: 5px;
@@ -300,6 +300,74 @@ details > summary:hover{
 }
 details > p{
     margin-left: 25px;
+}
+
+/*For the work experience*/
+.small_part_resume{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 2px;
+    left: 0;
+    width: 95%;
+    gap: 50px;
+}
+.small_part_resume h3{
+    font-size: 2rem;
+}
+
+.academic_expierences{
+    background-color: hsl(16, 67%, 94%);
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    padding: 20px;
+    margin-top: 100px;
+}
+.experience_summary{
+    font-family: DMSerif;
+    font-size: 1.3rem;
+}
+
+/*For the timeline for workexperience*/
+.timeline{
+    position: relative;
+    padding-left: 40px;
+    margin: 40px 0;
+}
+.timeline::before{
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 3px;
+    height: 90%;
+    background-color: black;
+    border-radius: 2px;
+}
+.timeline-item{
+    position: relative;
+    margin-bottom: 40px;
+}
+.timeline-item::before{
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(161, 168, 190);
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px black;
+}
+.timeline-item .date{
+    font-style: italic;
+    font-size: 1.1rem;
+}
+.timeline-item p{
+    margin-top: 5px;
+    line-height: 1.4;
 }
 
 #resume a{
@@ -317,6 +385,7 @@ details > p{
 #resume a:hover{
     background-color: hsl(16, 67%, 98%);
 }
+
 
 
 

@@ -371,6 +371,10 @@ details > p{
     margin-left: 25px;
 }
 
+#certificates h5{
+    color: hsl(147, 10%, 18%);
+}
+
 /*For the work experience*/
 .small_part_resume{
     display: flex;
@@ -417,7 +421,7 @@ details > p{
     top: 25px;
     width: 3px;
     height: 84%;
-    background-color: black;
+    background-color: hsl(147, 10%, 18%);
     border-radius: 2px;
 }
 .timeline-item{
@@ -434,7 +438,7 @@ details > p{
     background-color: hsl(337, 76%, 70%);
     border-radius: 50%;
     border: 2px solid hsl(337, 76%, 95%);
-    box-shadow: 0 0 0 2px black;
+    box-shadow: 0 0 0 2px hsl(147, 10%, 18%);
 }
 .timeline-item .date{
     font-style: italic;
@@ -483,6 +487,7 @@ footer{
     background-color: #556B5A;
     font-family: Montserrat;
     color: #F7C5D8;
+    font-weight: bold;
 }
 /*For a smaller screen*/
 @media (max-width: 768px) {

@@ -498,6 +498,7 @@ footer{
     }
     .navbar{
         margin-left: 10px;
+        margin-right: 40px;
     }
     .navbar a{
         font-size: 0.7rem;
@@ -563,6 +564,7 @@ footer{
     #hobbies_list{
         margin-left: -60px;
         gap: 10px;
+        margin-right: 40px;
     }
     #hobbies_list li{
         font-size: 0.9rem;

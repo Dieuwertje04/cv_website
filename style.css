@@ -124,6 +124,11 @@ html {
     display: block;
 }
 
+.language.open ul {
+    display: block;
+}
+
+
 /*SECTIONS*/
 .section{
     margin: 0px;

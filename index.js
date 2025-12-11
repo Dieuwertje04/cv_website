@@ -30,3 +30,19 @@ const observer = new IntersectionObserver(
 );
 
 sections.forEach(section => observer.observe(section));
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const langButton = document.querySelector(".language .selected-lang");
+    const langContainer = document.querySelector(".language");
+
+    langButton.addEventListener("click", (e) => {
+        e.stopPropagation(); // Prevent closing immediately
+        langContainer.classList.toggle("open");
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", () => {
+        langContainer.classList.remove("open");
+    });
+});

@@ -492,6 +492,9 @@ footer{
 /*For a smaller screen*/
 @media (max-width: 768px) {
     /*For the navigation bar*/
+    .header_container{
+        flex-direction: column;
+    }
     .header_container h1{
         font-size: 1.2rem;
         margin-left: -30px;

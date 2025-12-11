@@ -501,7 +501,7 @@ footer{
         flex-direction: column;
     }
     .header_container h1{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         margin-left: -30px;
     }
     .navbar{
@@ -565,17 +565,38 @@ footer{
     .hobbies_box{
         margin-top: 20px;
         margin-left: 0;
+        width: 200px;
     }
     #hobbies h4{
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
     #hobbies_list{
-        margin-left: -60px;
+        margin-left: 0%;
         gap: 10px;
-        margin-right: 40px;
+        margin-right: 0px;
+        justify-self: center;
     }
     #hobbies_list li{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
+    }
+    #img_yarn{
+    width: 70px;
+    }
+    #img_scissors{
+        margin-top: 12px;
+        width: 55px;
+    }
+    #img_book{
+        margin-top: 10px;
+        width: 65px;
+    }
+    #img_paintbrush{
+        margin-top: 10px;
+        width: 35px;
+    }
+    #img_lightbulb{
+        margin-top: 10px;
+        width: 55px;
     }
 
     /*For the resume part*/

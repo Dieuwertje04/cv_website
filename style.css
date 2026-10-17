@@ -342,6 +342,9 @@ html {
     font-size: 1.2rem;
     font-style: italic;
 }
+#ku{
+    padding-left: 10%;
+}
 #ucr{
    padding-left: 10%;
 }
@@ -425,7 +428,7 @@ details > p{
     left: 20px;
     top: 25px;
     width: 3px;
-    height: 84%;
+    height: 88%;
     background-color: hsl(147, 10%, 18%);
     border-radius: 2px;
 }
